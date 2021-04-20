@@ -1,0 +1,32 @@
+#Example 4
+const names = ['Harry', 'Ron', 'Jeff', 'Thomas'];
+const arrayMap = (array, fn) => {
+    const newArray = [];
+    for(let i = 0; i < array.length; i++) {
+        newArray.push(fn(array[i]));
+    }
+    return newArray;
+}
+const newNames = arrayMap(names, (name) => `${name}!` );
+console.log({
+    names,
+    newNames,
+});
+
+#Example 5
+const newArray = ['Harry', 'Ron', 'Jeff', 'Thomas'].map((name) => { return `${name}!`});
+console.log(newArray);
+
+#Example 6
+const truthyArray = [1, '', 'Hallo', 0, null, 'Harry', 14].filter((item) => Boolean(item));
+console.log(truthyArray);
+
+
+/*Output:
+{
+  names: [ 'Harry', 'Ron', 'Jeff', 'Thomas' ],
+  newNames: [ 'Harry!', 'Ron!', 'Jeff!', 'Thomas!' ]
+}
+[ 'Harry!', 'Ron!', 'Jeff!', 'Thomas!' ]
+[ 1, 'Hallo', 'Harry', 14 ]
+*/
