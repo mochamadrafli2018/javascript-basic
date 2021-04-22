@@ -8,17 +8,40 @@ let work = [
         duration: '30'
     },
     {
-        name: 'pray',
+        name: 'lunch',
         duration: '10'
+    },
+    {
+        name: 'drive',
+        duration: '30'
     }
 ]
 
+#Map
 let workName = work.map((i) => i.name )
 console.log(workName)
 //Output : ['study','sleep','pray']
+//Penjelasan : i menunjuk kepada 1 objek di dalam array
 
+#Map
 let workDuration =  work.map((i) => i.duration)
 console.log(workDuration)
 //Output : ['20','30','40]
 
-//Penjelasan : i merujuk ke setiap objek di dalam array. Sementara fungsi Map bisa digunakan untuk mengambil satu data dari objek
+#Filter
+let longWork = work.filter((i) => i.duration > 20 );
+console.log(longWork)
+/* Output: 
+[
+  { name: 'sleep', duration: '30' },
+  { name: 'drive', duration: '30' }
+]
+*/
+
+
+/*
+map membuat array baru dengan mengubah setiap elemen dalam array
+filter membuat array baru dengan menghapus elemen yang bukan miliknya
+reduce, di sisi lain, mengambil semua elemen dalam array, dan menguranginya menjadi satu nilai.
+Reference: https://code.tutsplus.com/id/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209
+*/
