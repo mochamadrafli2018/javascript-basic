@@ -1,0 +1,24 @@
+let work = [
+    {
+        name: 'study',
+        duration: '20'
+    },
+    {
+        name: 'sleep',
+        duration: '30'
+    },
+    {
+        name: 'pray',
+        duration: '10'
+    }
+]
+
+let workName = work.map((i) => i.name )
+console.log(workName)
+//Output : ['study','sleep','pray']
+
+let workDuration =  work.map((i) => i.duration)
+console.log(workDuration)
+//Output : ['20','30','40]
+
+//Penjelasan : i merujuk ke setiap objek di dalam array. Sementara fungsi Map bisa digunakan untuk mengambil satu data dari objek
