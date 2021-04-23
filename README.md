@@ -11,7 +11,11 @@
 ### Module Export Import 
 #### Use require('file path') to import javascript variable in a file.
 #### For multiple import value can be used object literals ({ }).
-#### Use module.export = 'name of variable' to export variabel in a file.
+#### Use module.exports = 'name of variable' to export variabel in a file.
+
+### Module Export Import in ES6
+#### Write: export default 'name of variable', to export a variable in a file.
+#### Use: import coffeeStock from "./name file.js", to import a variable in a file.
 
 ### Reference:
 ##### [1] https://www.dicoding.com/academies/256
