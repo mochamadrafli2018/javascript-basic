@@ -11,21 +11,20 @@ For example, when an array.map() is used, the function always creates a new arra
 ##### 
 High-Order Function is a concept in functional programming that can accept another function in an argument and return that function. For example callbacks, promise, array.map () are examples of high order functions. It only accepts one argument which is a function.
 
-### Check type of variable in Javascript
-#### https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-
 ### Module Export Import 
-#### 
+##### 
 Use require('...') to import
 For multiple import value can be used object literals {...}.
 Use module.exports = '...' to export variabel in a file.
 
 ### Module Export Import in ES6
-####
+#####
 Export: export default ...
 Import: import ... from "./filename.js"
 
-### Reference:
+### Reference :
 ##### [1] https://www.dicoding.com/academies/256
 ##### [2] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 ##### [3] https://code.tutsplus.com/id/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209 (Map, Filter, Reduce Explanation in Bahasa)
+##### [4] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof (Check type of variable)
+
