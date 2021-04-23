@@ -40,8 +40,9 @@ console.log(longWork)
 
 
 /*
-map membuat array baru dengan mengubah setiap elemen dalam array
-filter membuat array baru dengan menghapus elemen yang bukan miliknya
+map membuat array baru dengan mengubah setiap elemen dalam array.
+filter membuat array baru dengan menghapus elemen yang bukan miliknya.
 reduce, di sisi lain, mengambil semua elemen dalam array, dan menguranginya menjadi satu nilai.
+array function merepresentasikan return, sementara (i) merepresentasikan looping.
 Reference: https://code.tutsplus.com/id/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209
 */
