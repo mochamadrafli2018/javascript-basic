@@ -9,7 +9,7 @@ The function constantly produces the same result, unless the variables change.
 For example, when an array.map() is used, the function always creates a new array.
 #### 3. Higher-Order Function
 ##### 
-High-Order Function is a concept in functional programming that can accept another function in an argument and return that function. For example callbacks, promise, array.map () are examples of high order functions. It only accepts one argument which is a function.
+Callbacks, promise, array.map () are examples of high order functions. It only accepts one argument which is a function.
 
 ### Module Export Import 
 ##### 
