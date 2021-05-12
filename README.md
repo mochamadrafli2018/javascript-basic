@@ -27,3 +27,4 @@ Import: import ... from "./filename.js"
 #### [2] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 #### [3] https://code.tutsplus.com/id/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209 (Map, Filter, Reduce Explanation in Bahasa)
 #### [4] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof (Check type of variable)
+#### [5] https://www.sanbercode.com/
